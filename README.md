@@ -5,6 +5,8 @@ training working with mongo dp
 1. create 4 collections: users, tasks, projects, reports;
 2. work with quering data from db
 
+
+/////////////////////////////////////////////////////////
 11/18/2016
 tasks:
 1. selecting all tasks in projects by status (resosolved unresolved open in progress)
