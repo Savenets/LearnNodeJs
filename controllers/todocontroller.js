@@ -54,8 +54,8 @@ module.exports = function(app){
         //delete requeserted item from mongo db
         Todo.find({item: req.params.item.replace(/\- /g, " ")}).remove(function(err, data){
             if(err){
+                console.log('there is and error deleting item');
                 throw err;
-                console.log('there is and error deleting item')
             }
             else{
                 res.json(data);
